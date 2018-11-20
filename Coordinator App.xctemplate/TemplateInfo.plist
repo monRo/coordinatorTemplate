@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>TargetIdentifier</key>
+			<string>com.apple.dt.cocoaTouchApplicationTarget</string>
+			<key>SharedSettings</key>
+			<dict>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>INFOPLIST_FILE</key>
+				<string>___PACKAGENAME___/Resource/Plists/Application Plist/Info.plist</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___PACKAGENAMEASRFC1034IDENTIFIER___</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>ProductType</key>
+			<string>com.apple.product-type.application</string>
+			<key>BuildPhases</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>Sources</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>Frameworks</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>Resources</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Source/Application/Application Delegate/AppDelegate.swift:comments</string>
+						<string>Source/Application/Application Delegate/AppDelegate.swift:implementation</string>
+						<string>Source/Application/Application Coordinator/ApplicationCoordinator.swift:comments</string>
+						<string>Source/Application/Application Coordinator/ApplicationCoordinator.swift:implementation</string>
+						<string>Source/Protocols/Common Protocols/Coordinator.swift:comments</string>
+						<string>Source/Protocols/Common Protocols/Coordinator.swift:implementation</string>
+						<string>Source/Protocols/Common Protocols/Presentable.swift:comments</string>
+						<string>Source/Protocols/Common Protocols/Presentable.swift:implementation</string>
+						<string>Source/Protocols/Common Protocols/PresentableView.swift:implementation:comments</string>
+						<string>Source/Protocols/Common Protocols/PresentableView.swift:implementation:implementation</string>
+						<string>Source/Protocols/Router Protocols/Routable.swift:comments</string>
+						<string>Source/Protocols/Router Protocols/Routable.swift:implementation</string>
+						<string>Source/Common/Parents/Base ViewController/BaseViewController.swift:comments</string>
+						<string>Source/Common/Parents/Base ViewController/BaseViewController.swift:implementation</string>
+						<string>Source/Common/Parents/Base NavigationController/BaseNavigationController.swift:comments</string>
+						<string>Source/Common/Parents/Base NavigationController/BaseNavigationController.swift:implementation</string>
+						<string>Source/Common/Parents/Router/Router.swift:comments</string>
+						<string>Source/Common/Parents/Router/Router.swift:implementation</string>
+						<string>Source/Common/Parents/BaseCoordinator/BaseCoordinator.swift:comments</string>
+						<string>Source/Common/Parents/BaseCoordinator/BaseCoordinator.swift:implementation</string>
+						<string>Source/Common/Parents/Base TableViewAdapter/BaseTableViewAdapter.swift:comments</string>
+						<string>Source/Common/Parents/Base TableViewAdapter/BaseTableViewAdapter.swift:implementation</string>
+						<string>Source/Common/Extensions/UIKitExtensions/UIKitExtensions.swift:comments</string>
+						<string>Source/Common/Extensions/UIKitExtensions/UIKitExtensions.swift:implementation</string>
+						<string>Source/Common/Extensions/FoundationExtensions/ArrayExtensions.swift:comments</string>
+						<string>Source/Common/Extensions/FoundationExtensions/ArrayExtensions.swift:implementation</string>
+						<string>Source/Common/StoryboardName/StoryboardName.swift:comments</string>
+						<string>Source/Common/StoryboardName/StoryboardName.swift:implementation</string>
+						<string>Source/Common/Typealiases/Typealiases.swift:comments</string>
+						<string>Source/Common/Typealiases/Typealiases.swift:implementation</string>
+						<string>Source/Protocols/Factory Protocols/Coordinator Factory Protocols/CoordinatorFactoryType.swift:comments</string>
+						<string>Source/Protocols/Factory Protocols/Coordinator Factory Protocols/CoordinatorFactoryType.swift:implementation</string>
+						<string>Source/Protocols/Factory Protocols/Module Factory Protocols/ModuleFactoryType.swift:comments</string>
+						<string>Source/Protocols/Factory Protocols/Module Factory Protocols/ModuleFactoryType.swift:implementation</string>
+						<string>Source/Protocols/Factory Protocols/Module Factory Protocols/NavigationModuleFactoryType.swift:comments</string>
+						<string>Source/Protocols/Factory Protocols/Module Factory Protocols/NavigationModuleFactoryType.swift:implementation</string>
+						<string>Source/Protocols/Factory Protocols/Component Factory Protocols/ComponentFactoryType.swift:comments</string>
+						<string>Source/Protocols/Factory Protocols/Component Factory Protocols/ComponentFactoryType.swift:implementation</string>
+						<string>Source/Factories/Module Factory/ModuleFactory.swift:comments</string>
+						<string>Source/Factories/Module Factory/ModuleFactory.swift:implementation</string>
+						<string>Source/Factories/Component Factory/ComponentFactory.swift:comments</string>
+						<string>Source/Factories/Component Factory/ComponentFactory.swift:implementation</string>
+						<string>Source/Factories/Coordinator Factory/CoordinatorFactory.swift:comments</string>
+						<string>Source/Factories/Coordinator Factory/CoordinatorFactory.swift:implementation</string>
+						<string>Source/Flow/Main/Controller/MainViewController.swift:comments</string>
+						<string>Source/Flow/Main/Controller/MainViewController.swift:implementation</string>
+						<string>Resource/Plists/Application Plist/Info.plist:implementation</string>
+						<string>Resource/Storyboards/Main/Main.storyboard:implementation</string>
+						<string>Resource/Storyboards/Navigation/Navigation.storyboard:implementation</string>
+						<string>Resource/Storyboards/Launch Screen/Base.lproj/LaunchScreen.storyboard:implementation</string>
+						<string>Resource/Images/Application Assets/Assets.xcassets</string>
+						<string>Source/Flow/Main/Coordinator/MainCoordinator.swift:comments</string>
+						<string>Source/Flow/Main/Coordinator/MainCoordinator.swift:implementation</string>
+						<string>Source/Protocols/Factory Protocols/Module Factory Protocols/MainModuleFactoryType.swift:comments</string>
+						<string>Source/Protocols/Factory Protocols/Module Factory Protocols/MainModuleFactoryType.swift:implementation</string>
+						<string>Source/Common/TableViewRows/TableViewDiffCalculator/TableViewDiffCalculator.swift:comments</string>
+						<string>Source/Common/TableViewRows/TableViewDiffCalculator/TableViewDiffCalculator.swift:implementation</string>
+						<string>Source/Common/TableViewRows/TableViewSection/TableViewSection.swift:comments</string>
+						<string>Source/Common/TableViewRows/TableViewSection/TableViewSection.swift:implementation</string>
+						<string>Source/Common/TableViewRows/TableViewRow/TableViewRow.swift:comments</string>
+						<string>Source/Common/TableViewRows/TableViewRow/TableViewRow.swift:implementation</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>Source/Flow/Main/Coordinator/MainCoordinator.swift:implementation</key>
+						<string>protocol MainCoordinatorOutput: AnyObject {
+    var onFinishFlow: EmptyCompletion? { get set }
+}
+
+final class MainCoordinator: BaseCoordinator, MainCoordinatorOutput {
+    private let router: Routable
+    private let factory: MainModuleFactoryType
+
+    var onFinishFlow: EmptyCompletion?
+
+    init(router: Routable, factory: MainModuleFactoryType) {
+        self.router = router
+        self.factory = factory
+    }
+
+    override func start() {
+        showMainView()
+    }
+}
+
+extension MainCoordinator {
+    private func showMainView() {
+        let output = factory.makeMainOutput()
+        output.onFinishFlow = {}
+        
+        router.setRootModule(output)
+    }
+}</string>
+						<key>Source/Common/Typealiases/Typealiases.swift:implementation</key>
+						<string>import UIKit
+
+// MARK: - Common
+typealias EmptyCompletion = (() -&gt; Void)
+
+// MARK: - Router
+typealias RouterCompletion = EmptyCompletion
+
+// MARK: TableViewRow
+typealias TableViewCellBlock = (_ indexPath: IndexPath, _ tableView: UITableView) -&gt; UITableViewCell
+typealias TableViewDidSelectBlock = (_ indexPath: IndexPath, _ tableView: UITableView) -&gt; Void
+typealias TableViewCellHeightBlock = (_ indexPath: IndexPath, _ tableView: UITableView) -&gt; CGFloat</string>
+						<key>Source/Common/Parents/Router/Router.swift:implementation</key>
+						<string>import UIKit
+
+final class Router {
+    private weak var rootController: UINavigationController?
+    private var completions: [UIViewController: RouterCompletion]
+
+    init(rootController: UINavigationController?) {
+        self.rootController = rootController
+        self.completions = [:]
+    }
+}
+
+extension Router: Routable {
+    func present(_ module: Presentable?, animated: Bool = true) {
+        present(module, animated: animated, completion: nil)
+    }
+
+    func present(_ module: Presentable?, animated: Bool = true, completion: RouterCompletion?) {
+        guard let controller = module?.toPresent else { return }
+        rootController?.present(controller, animated: animated, completion: completion)
+    }
+
+    func push(module: Presentable?, animated: Bool = true) {
+        push(module: module, animated: animated, completion: nil)
+    }
+
+    func push(module: Presentable?, animated: Bool = true, completion: RouterCompletion?) {
+        guard let controller = module?.toPresent, (controller is UINavigationController == false) else {
+            assertionFailure(&quot;Deprecated push UINavigationController.&quot;)
+            return
+        }
+
+        if let completion = completion {
+            completions[controller] = completion
+        }
+
+        rootController?.pushViewController(controller, animated: animated)
+    }
+
+    func popModule(animated: Bool = true) {
+        if let controller = rootController?.popViewController(animated: animated) {
+            runCompletion(for: controller)
+        }
+    }
+
+    func popToModule(_ module: Presentable?, animated: Bool = true) {
+        guard let controller = module?.toPresent else { return }
+
+        if let controllers = rootController?.popToViewController(controller, animated: animated) {
+            controllers.forEach { controller in
+                runCompletion(for: controller)
+            }
+        }
+    }
+
+    func dismissModule(animated: Bool = true, completion: RouterCompletion? = nil) {
+        rootController?.dismiss(animated: animated, completion: completion)
+    }
+
+    func setRootModule(_ module: Presentable?) {
+        guard let controller = module?.toPresent else { return }
+
+        rootController?.setViewControllers([controller], animated: false)
+    }
+
+    func popToRootModule(animated: Bool = true) {
+        if let controllers = rootController?.popToRootViewController(animated: animated) {
+            controllers.forEach { runCompletion(for: $0) }
+        }
+    }
+
+    var toPresent: UIViewController? {
+        return rootController
+    }
+}
+
+extension Router {
+    private func runCompletion(for controller: UIViewController) {
+        guard let completion = completions[controller] else { return }
+        completion()
+        completions.removeValue(forKey: controller)
+    }
+}</string>
+						<key>Source/Protocols/Factory Protocols/Component Factory Protocols/ComponentFactoryType.swift:implementation</key>
+						<string>protocol ComponentFactoryType: AnyObject {
+}</string>
+						<key>Resource/Plists/Application Plist/Info.plist:implementation</key>
+						<string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;dict&gt;
+	&lt;key&gt;CFBundleIdentifier&lt;/key&gt;
+	&lt;string&gt;$(PRODUCT_BUNDLE_IDENTIFIER)&lt;/string&gt;
+	&lt;key&gt;CFBundleInfoDictionaryVersion&lt;/key&gt;
+	&lt;string&gt;6.0&lt;/string&gt;
+	&lt;key&gt;CFBundleExecutable&lt;/key&gt;
+	&lt;string&gt;$(EXECUTABLE_NAME)&lt;/string&gt;
+	&lt;key&gt;CFBundleName&lt;/key&gt;
+	&lt;string&gt;$(PRODUCT_NAME)&lt;/string&gt;
+	&lt;key&gt;CFBundleDevelopmentRegion&lt;/key&gt;
+	&lt;string&gt;$(DEVELOPMENT_LANGUAGE)&lt;/string&gt;
+	&lt;key&gt;CFBundleShortVersionString&lt;/key&gt;
+	&lt;string&gt;1.0&lt;/string&gt;
+	&lt;key&gt;CFBundleVersion&lt;/key&gt;
+	&lt;string&gt;1&lt;/string&gt;
+	&lt;key&gt;UIStatusBarTintParameters&lt;/key&gt;
+	&lt;dict&gt;
+	    &lt;key&gt;UINavigationBar&lt;/key&gt;
+	    &lt;dict&gt;
+	        &lt;key&gt;Style&lt;/key&gt;
+	        &lt;string&gt;UIBarStyleDefault&lt;/string&gt;
+	        &lt;key&gt;Translucent&lt;/key&gt;
+	        &lt;false/&gt;
+	    &lt;/dict&gt;
+	&lt;/dict&gt;
+	&lt;key&gt;UILaunchStoryboardName&lt;/key&gt;
+	&lt;string&gt;LaunchScreen&lt;/string&gt;
+	&lt;key&gt;CFBundlePackageType&lt;/key&gt;
+	&lt;string&gt;APPL&lt;/string&gt;
+	&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
+	&lt;true/&gt;
+	&lt;key&gt;UIRequiredDeviceCapabilities&lt;/key&gt;
+	&lt;array&gt;
+		&lt;string&gt;armv7&lt;/string&gt;
+	&lt;/array&gt;
+	&lt;key&gt;UISupportedInterfaceOrientations&lt;/key&gt;
+	&lt;array&gt;
+		&lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
+	&lt;/array&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;</string>
+						<key>Resource/Storyboards/Main/Main.storyboard:implementation</key>
+						<string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;document type=&quot;com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB&quot; version=&quot;3.0&quot; toolsVersion=&quot;14460.31&quot; targetRuntime=&quot;iOS.CocoaTouch&quot; propertyAccessControl=&quot;none&quot; useAutolayout=&quot;YES&quot; useTraitCollections=&quot;YES&quot; useSafeAreas=&quot;YES&quot; colorMatched=&quot;YES&quot;&gt;
+    &lt;device id=&quot;retina4_7&quot; orientation=&quot;portrait&quot;&gt;
+        &lt;adaptation id=&quot;fullscreen&quot;/&gt;
+    &lt;/device&gt;
+    &lt;dependencies&gt;
+        &lt;deployment identifier=&quot;iOS&quot;/&gt;
+        &lt;plugIn identifier=&quot;com.apple.InterfaceBuilder.IBCocoaTouchPlugin&quot; version=&quot;14460.20&quot;/&gt;
+        &lt;capability name=&quot;Safe area layout guides&quot; minToolsVersion=&quot;9.0&quot;/&gt;
+        &lt;capability name=&quot;documents saved in the Xcode 8 format&quot; minToolsVersion=&quot;8.0&quot;/&gt;
+    &lt;/dependencies&gt;
+    &lt;scenes&gt;
+        &lt;!--Main View Controller--&gt;
+        &lt;scene sceneID=&quot;baU-0J-rPo&quot;&gt;
+            &lt;objects&gt;
+                &lt;viewController storyboardIdentifier=&quot;MainViewController&quot; id=&quot;75J-AF-4vA&quot; customClass=&quot;MainViewController&quot; customModule=&quot;Common&quot; customModuleProvider=&quot;target&quot; sceneMemberID=&quot;viewController&quot;&gt;
+                    &lt;view key=&quot;view&quot; contentMode=&quot;scaleToFill&quot; id=&quot;0Nr-me-3BO&quot;&gt;
+                        &lt;rect key=&quot;frame&quot; x=&quot;0.0&quot; y=&quot;0.0&quot; width=&quot;375&quot; height=&quot;667&quot;/&gt;
+                        &lt;autoresizingMask key=&quot;autoresizingMask&quot; widthSizable=&quot;YES&quot; heightSizable=&quot;YES&quot;/&gt;
+                        &lt;color key=&quot;backgroundColor&quot; white=&quot;1&quot; alpha=&quot;1&quot; colorSpace=&quot;custom&quot; customColorSpace=&quot;genericGamma22GrayColorSpace&quot;/&gt;
+                        &lt;viewLayoutGuide key=&quot;safeArea&quot; id=&quot;kYM-K5-9VE&quot;/&gt;
+                    &lt;/view&gt;
+                &lt;/viewController&gt;
+                &lt;placeholder placeholderIdentifier=&quot;IBFirstResponder&quot; id=&quot;wMT-pk-fGX&quot; userLabel=&quot;First Responder&quot; sceneMemberID=&quot;firstResponder&quot;/&gt;
+            &lt;/objects&gt;
+            &lt;point key=&quot;canvasLocation&quot; x=&quot;-228&quot; y=&quot;44&quot;/&gt;
+        &lt;/scene&gt;
+    &lt;/scenes&gt;
+&lt;/document&gt;
+</string>
+						<key>Source/Common/Parents/Base NavigationController/BaseNavigationController.swift:implementation</key>
+						<string>import UIKit
+
+class BaseNavigationController: UINavigationController {
+    override func loadView() {
+        super.loadView()
+        configureNavigationController()
+    }
+}
+extension BaseNavigationController {
+    private func configureNavigationController() {
+        configureNavigationBar()
+    }
+
+    private func configureNavigationBar() {
+    }
+}</string>
+						<key>Source/Protocols/Factory Protocols/Module Factory Protocols/NavigationModuleFactoryType.swift:implementation</key>
+						<string>import UIKit
+
+protocol NavigationModuleFactoryType: AnyObject {
+    func makeBaseNavigationController() -&gt; BaseNavigationController
+}</string>
+						<key>Resource/Storyboards/Navigation/Navigation.storyboard:implementation</key>
+						<string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;document type=&quot;com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB&quot; version=&quot;3.0&quot; toolsVersion=&quot;14460.31&quot; targetRuntime=&quot;iOS.CocoaTouch&quot; propertyAccessControl=&quot;none&quot; useAutolayout=&quot;YES&quot; useTraitCollections=&quot;YES&quot; useSafeAreas=&quot;YES&quot; colorMatched=&quot;YES&quot;&gt;
+    &lt;device id=&quot;retina4_7&quot; orientation=&quot;portrait&quot;&gt;
+        &lt;adaptation id=&quot;fullscreen&quot;/&gt;
+    &lt;/device&gt;
+    &lt;dependencies&gt;
+        &lt;deployment identifier=&quot;iOS&quot;/&gt;
+        &lt;plugIn identifier=&quot;com.apple.InterfaceBuilder.IBCocoaTouchPlugin&quot; version=&quot;14460.20&quot;/&gt;
+        &lt;capability name=&quot;documents saved in the Xcode 8 format&quot; minToolsVersion=&quot;8.0&quot;/&gt;
+    &lt;/dependencies&gt;
+    &lt;scenes&gt;
+        &lt;!--Base Navigation Controller--&gt;
+        &lt;scene sceneID=&quot;tZt-ET-g8N&quot;&gt;
+            &lt;objects&gt;
+                &lt;navigationController storyboardIdentifier=&quot;BaseNavigationController&quot; id=&quot;UJI-Qk-2cm&quot; customClass=&quot;BaseNavigationController&quot; customModule=&quot;Common&quot; customModuleProvider=&quot;target&quot; sceneMemberID=&quot;viewController&quot;&gt;
+                    &lt;navigationBar key=&quot;navigationBar&quot; contentMode=&quot;scaleToFill&quot; insetsLayoutMarginsFromSafeArea=&quot;NO&quot; id=&quot;X21-yc-Dj4&quot;&gt;
+                        &lt;rect key=&quot;frame&quot; x=&quot;0.0&quot; y=&quot;20&quot; width=&quot;375&quot; height=&quot;44&quot;/&gt;
+                        &lt;autoresizingMask key=&quot;autoresizingMask&quot;/&gt;
+                    &lt;/navigationBar&gt;
+                &lt;/navigationController&gt;
+                &lt;placeholder placeholderIdentifier=&quot;IBFirstResponder&quot; id=&quot;8Yk-cy-hXn&quot; userLabel=&quot;First Responder&quot; sceneMemberID=&quot;firstResponder&quot;/&gt;
+            &lt;/objects&gt;
+            &lt;point key=&quot;canvasLocation&quot; x=&quot;-727&quot; y=&quot;6&quot;/&gt;
+        &lt;/scene&gt;
+    &lt;/scenes&gt;
+&lt;/document&gt;
+</string>
+						<key>Source/Application/Application Coordinator/ApplicationCoordinator.swift:implementation</key>
+						<string>import UIKit
+
+final class ApplicationCoordinator: BaseCoordinator {
+    private var window: UIWindow?
+    private let coordinatorFactory: CoordinatorFactoryType
+
+    init(coordinatorFactory: CoordinatorFactoryType) {
+        self.coordinatorFactory = coordinatorFactory
+    }
+
+    override func start() {
+        runInitialCoordinator()
+    }
+}
+
+extension ApplicationCoordinator {
+    private func runInitialCoordinator() {
+        let coordinator = coordinatorFactory.makeInitialCoordinator(&amp;window)
+        addDependency(coordinator)
+        coordinator.start()
+    }
+}</string>
+						<key>Source/Common/Extensions/UIKitExtensions/UIKitExtensions.swift:implementation</key>
+						<string>import UIKit
+
+protocol StoryboardIdentifiable {
+    static var identifier: String { get }
+}
+
+extension StoryboardIdentifiable where Self: UIViewController {
+    static var identifier: String {
+        return String(describing: self)
+    }
+}
+
+extension UIViewController: Presentable {
+    var toPresent: UIViewController? {
+        return self
+    }
+}
+
+extension UIViewController: StoryboardIdentifiable {}
+
+extension UIStoryboard {
+    convenience init(_ storyboadName: StoryboardName) {
+        self.init(name: storyboadName.rawValue, bundle: nil)
+    }
+
+    func initializeViewController&lt;T&gt;() -&gt; T where T: StoryboardIdentifiable {
+        guard let controller = instantiateViewController(withIdentifier: T.identifier) as? T else {
+            fatalError(&quot;could not load view controller with identifier: \(T.identifier)&quot;)
+        }
+
+        return controller
+    }
+}
+
+extension UIView {
+    class func fromNib&lt;T: UIView&gt;() -&gt; T {
+        guard let view = Bundle.main.loadNibNamed(String(describing: T.self), owner: nil, options: nil)?.first as? T else {
+            fatalError(&quot;\(T.self) nib unwrap&quot;)
+        }
+        return view
+    }
+
+    var hasSuperView: Bool {
+        return self.superview != nil
+    }
+}</string>
+						<key>Source/Common/Extensions/FoundationExtensions/ArrayExtensions.swift:implementation</key>
+						<string>import Foundation
+
+extension Array where Element: Hashable {
+    /// Remove duplicates from the array, preserving the items order
+    func filterDuplicates() -&gt; Array&lt;Element&gt; {
+        var set = Set&lt;Element&gt;()
+        var filteredArray = Array&lt;Element&gt;()
+
+        for item in self {
+            if set.insert(item).inserted {
+                filteredArray.append(item)
+            }
+        }
+        return filteredArray
+    }
+}</string>
+						<key>Source/Protocols/Router Protocols/Routable.swift:implementation</key>
+						<string>import UIKit
+
+protocol Routable: AnyObject, Presentable {
+    func present(_ module: Presentable?, animated: Bool)
+    func present(_ module: Presentable?, animated: Bool, completion: RouterCompletion?)
+    func push(module: Presentable?, animated: Bool)
+    func push(module: Presentable?, animated: Bool, completion: RouterCompletion?)
+    func popModule(animated: Bool)
+    func popToModule(_ module: Presentable?, animated: Bool)
+    func dismissModule(animated: Bool, completion: RouterCompletion?)
+    func setRootModule(_ module: Presentable?)
+    func popToRootModule(animated: Bool)
+}</string>
+						<key>Source/Common/Parents/BaseCoordinator/BaseCoordinator.swift:implementation</key>
+						<string>import Foundation
+
+class BaseCoordinator: Coordinator {
+    private var childCoordinators: [Coordinator] = []
+
+    func start() {
+        assertionFailure(&quot;The method should be overridden in the child coordinator&quot;)
+    }
+}
+
+extension BaseCoordinator {
+    func addDependency(_ coordinator: Coordinator) {
+        for element in childCoordinators {
+            if element === coordinator {
+                return
+            }
+        }
+
+        childCoordinators.append(coordinator)
+    }
+
+    func removeDependency(_ coordinator: Coordinator?) {
+        guard childCoordinators.isEmpty == false, let coordinator = coordinator else { return }
+
+        for (index, element) in childCoordinators.enumerated() {
+            if element === coordinator {
+                childCoordinators.remove(at: index)
+                break
+            }
+        }
+    }
+}</string>
+						<key>Resource/Storyboards/Launch Screen/Base.lproj/LaunchScreen.storyboard:implementation</key>
+						<string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;
+&lt;document type=&quot;com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB&quot; version=&quot;3.0&quot; toolsVersion=&quot;13122.16&quot; targetRuntime=&quot;iOS.CocoaTouch&quot; propertyAccessControl=&quot;none&quot; useAutolayout=&quot;YES&quot; launchScreen=&quot;YES&quot; useTraitCollections=&quot;YES&quot; useSafeAreas=&quot;YES&quot; colorMatched=&quot;YES&quot; initialViewController=&quot;01J-lp-oVM&quot;&gt;
+    &lt;dependencies&gt;
+        &lt;plugIn identifier=&quot;com.apple.InterfaceBuilder.IBCocoaTouchPlugin&quot; version=&quot;13104.12&quot;/&gt;
+        &lt;capability name=&quot;Safe area layout guides&quot; minToolsVersion=&quot;9.0&quot;/&gt;
+        &lt;capability name=&quot;documents saved in the Xcode 8 format&quot; minToolsVersion=&quot;8.0&quot;/&gt;
+    &lt;/dependencies&gt;
+    &lt;scenes&gt;
+        &lt;!--View Controller--&gt;
+        &lt;scene sceneID=&quot;EHf-IW-A2E&quot;&gt;
+            &lt;objects&gt;
+                &lt;viewController id=&quot;01J-lp-oVM&quot; sceneMemberID=&quot;viewController&quot;&gt;
+                    &lt;view key=&quot;view&quot; contentMode=&quot;scaleToFill&quot; id=&quot;Ze5-6b-2t3&quot;&gt;
+                        &lt;rect key=&quot;frame&quot; x=&quot;0.0&quot; y=&quot;0.0&quot; width=&quot;375&quot; height=&quot;667&quot;/&gt;
+                        &lt;autoresizingMask key=&quot;autoresizingMask&quot; widthSizable=&quot;YES&quot; heightSizable=&quot;YES&quot;/&gt;
+                        &lt;color key=&quot;backgroundColor&quot; red=&quot;1&quot; green=&quot;1&quot; blue=&quot;1&quot; alpha=&quot;1&quot; colorSpace=&quot;custom&quot; customColorSpace=&quot;sRGB&quot;/&gt;
+                        &lt;viewLayoutGuide key=&quot;safeArea&quot; id=&quot;6Tk-OE-BBY&quot;/&gt;
+                    &lt;/view&gt;
+                &lt;/viewController&gt;
+                &lt;placeholder placeholderIdentifier=&quot;IBFirstResponder&quot; id=&quot;iYj-Kq-Ea1&quot; userLabel=&quot;First Responder&quot; sceneMemberID=&quot;firstResponder&quot;/&gt;
+            &lt;/objects&gt;
+            &lt;point key=&quot;canvasLocation&quot; x=&quot;53&quot; y=&quot;375&quot;/&gt;
+        &lt;/scene&gt;
+    &lt;/scenes&gt;
+&lt;/document&gt;
+</string>
+						<key>Source/Factories/Component Factory/ComponentFactory.swift:implementation</key>
+						<string>import Foundation
+
+final class ComponentFactory: ComponentFactoryType {
+}</string>
+						<key>Source/Factories/Module Factory/ModuleFactory.swift:implementation</key>
+						<string>import UIKit
+
+final class ModuleFactory {
+    private let componentFactory: ComponentFactoryType
+
+    init(componentFactory: ComponentFactoryType) {
+        self.componentFactory = componentFactory
+    }
+}
+
+extension ModuleFactory: ModuleFactoryType {
+    func makeBaseNavigationController() -&gt; BaseNavigationController {
+        return makeStoryboard(.navigation).initializeViewController()
+    }
+
+    func makeMainOutput() -&gt; MainViewOutput {
+        let controller: MainViewController = makeViewController(from: .main)
+        // Do your injection here
+        return controller
+    }
+}
+
+extension ModuleFactory {
+    @discardableResult
+    private func makeViewController&lt;T: BaseViewController&gt;(from storyboard: StoryboardName) -&gt; T {
+        let viewController: T = makeStoryboard(storyboard).initializeViewController()
+        return viewController
+    }
+}
+
+extension ModuleFactory {
+    private func makeStoryboard(_ name: StoryboardName) -&gt; UIStoryboard {
+        return UIStoryboard(name)
+    }
+}</string>
+						<key>Source/Protocols/Factory Protocols/Module Factory Protocols/MainModuleFactoryType.swift:implementation</key>
+						<string>protocol MainModuleFactoryType: AnyObject {
+    func makeMainOutput() -&gt; MainViewOutput
+}</string>
+						<key>*:comments</key>
+						<string>//___FILEHEADER___
+</string>
+						<key>Source/Flow/Main/Controller/MainViewController.swift:implementation</key>
+						<string>import UIKit
+
+protocol MainViewOutput: PresentableView {
+    var onFinishFlow: EmptyCompletion? { get set }
+}
+
+final class MainViewController: BaseViewController, MainViewOutput {
+    // MARK: - MainViewOutput
+    var onFinishFlow: EmptyCompletion?
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}</string>
+						<key>Source/Application/Application Delegate/AppDelegate.swift:implementation</key>
+						<string>import UIKit
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    private lazy var applicationCoordinator: Coordinator = self.makeCoordinator()()
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -&gt; Bool {
+        applicationCoordinator.start()
+        return true
+    }
+}
+
+extension AppDelegate {
+    private func makeCoordinator() -&gt; (() -&gt; Coordinator) {
+        return { [unowned self] in
+            return ApplicationCoordinator(coordinatorFactory: self.makeCoordinatorFactory()())
+        }
+    }
+
+    private func makeCoordinatorFactory() -&gt; (() -&gt; CoordinatorFactoryType) {
+        return { [unowned self] in
+            return CoordinatorFactory(moduleFactory: self.makeModuleFactory()())
+        }
+    }
+
+    private func makeModuleFactory() -&gt; (() -&gt; ModuleFactoryType) {
+        return { [unowned self] in
+            return ModuleFactory(componentFactory: self.makeComponentFactory()())
+        }
+    }
+
+    private func makeComponentFactory() -&gt; (() -&gt; ComponentFactoryType) {
+        return {
+            return ComponentFactory()
+        }
+    }
+}</string>
+						<key>Source/Protocols/Common Protocols/Coordinator.swift:implementation</key>
+						<string>protocol Coordinator: AnyObject {
+    func start()
+}</string>
+						<key>Source/Protocols/Factory Protocols/Module Factory Protocols/ModuleFactoryType.swift:implementation</key>
+						<string>import UIKit
+
+protocol ModuleFactoryType: NavigationModuleFactoryType, MainModuleFactoryType {
+}</string>
+						<key>Source/Protocols/Factory Protocols/Coordinator Factory Protocols/CoordinatorFactoryType.swift:implementation</key>
+						<string>import UIKit
+
+protocol CoordinatorFactoryType {
+    func makeInitialCoordinator(_ window: inout UIWindow?) -&gt; Coordinator
+}</string>
+						<key>Source/Common/Parents/Base ViewController/BaseViewController.swift:implementation</key>
+						<string>import UIKit
+
+class BaseViewController: UIViewController {
+}</string>
+						<key>Source/Protocols/Common Protocols/Presentable.swift:implementation</key>
+						<string>import UIKit
+
+protocol Presentable {
+    var toPresent: UIViewController? { get }
+}</string>
+						<key>Source/Protocols/Common Protocols/PresentableView.swift:implementation</key>
+						<string>protocol PresentableView: AnyObject, Presentable {
+}</string>
+						<key>Source/Common/StoryboardName/StoryboardName.swift:implementation</key>
+						<string>enum StoryboardName: String {
+    case navigation = &quot;Navigation&quot;
+    case main = &quot;Main&quot;
+}</string>
+						<key>Source/Factories/Coordinator Factory/CoordinatorFactory.swift:implementation</key>
+						<string>import UIKit
+
+final class CoordinatorFactory {
+    private let moduleFactory: ModuleFactoryType
+
+    init(moduleFactory: ModuleFactoryType) {
+        self.moduleFactory = moduleFactory
+    }
+}
+
+extension CoordinatorFactory: CoordinatorFactoryType {
+    func makeInitialCoordinator(_ window: inout UIWindow?) -&gt; Coordinator {
+        let coordinator = MainCoordinator(router: makeRootRouter(nil, with: &amp;window), factory: moduleFactory)
+        return coordinator
+    }
+}
+
+extension CoordinatorFactory {
+    private func makeRouter(_ navigationController: UINavigationController?) -&gt; Routable {
+        return Router(rootController: makeNavigationControllerIfNotExist(navigationController))
+    }
+
+    private func makeRootRouter(_ navigationController: UINavigationController?, with window: inout UIWindow?) -&gt; Router {
+        let navigationController = makeNavigationControllerIfNotExist(navigationController)
+        window = makeRootWindow(with: navigationController)
+        return Router(rootController: navigationController)
+    }
+}
+
+extension CoordinatorFactory {
+    private func makeNavigationControllerIfNotExist(_ navigationController: UINavigationController?) -&gt; UINavigationController {
+        guard let navigationController = navigationController else {
+            return moduleFactory.makeBaseNavigationController()
+        }
+
+        return navigationController
+    }
+
+    private func makeRootWindow(with navigationController: UINavigationController) -&gt; UIWindow {
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.rootViewController = navigationController
+        window.makeKeyAndVisible()
+        return window
+    }
+}</string>
+						<key>Source/Common/Parents/Base TableViewAdapter/BaseTableViewAdapter.swift:implementation</key>
+						<string>import UIKit
+
+class BaseTableViewAdapter: NSObject {
+    private weak var tableView: UITableView?
+    private var sections: [TableViewSection] = []
+}
+
+extension BaseTableViewAdapter {
+    func bind(tableView: UITableView) {
+        self.tableView = tableView
+        self.tableView?.delegate = self
+        self.tableView?.dataSource = self
+    }
+}
+
+extension BaseTableViewAdapter {
+    func addSections(_ newSections: [TableViewSection]) {
+        let oldData = flatten(items: sections)
+        let newData = flatten(items: newSections)
+
+        let sectionsChanges = TableViewDiffCalculator.calculate(oldItems: oldData, newItems: newData)
+
+        sections = newSections
+        apply(changes: sectionsChanges)
+    }
+}
+
+extension BaseTableViewAdapter {
+    private func apply(changes: SectionChanges) {
+        tableView?.beginUpdates()
+
+        tableView?.deleteSections(changes.deletes, with: .fade)
+        tableView?.insertSections(changes.inserts, with: .fade)
+
+        tableView?.reloadRows(at: changes.updates.reloads, with: .fade)
+        tableView?.insertRows(at: changes.updates.inserts, with: .fade)
+        tableView?.deleteRows(at: changes.updates.deletes, with: .fade)
+
+        tableView?.endUpdates()
+    }
+
+    private func flatten(items: [TableViewSection]) -&gt; [ReloadableSection&lt;TableViewRow&gt;] {
+        let reloadableItems = items
+            .enumerated()
+            .map { ReloadableSection(key: $0.element.key, value: $0.element.rows
+                .enumerated()
+                .map { ReloadableCell(key: $0.element.id, value: $0.element, index: $0.offset) }, index: $0.offset) }
+
+        return reloadableItems
+    }
+}
+
+extension BaseTableViewAdapter: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -&gt; CGFloat {
+        let row = sections[indexPath.section].rows[indexPath.row]
+        return row.heightForCell(indexPath, tableView: tableView)
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let row = sections[indexPath.section].rows[indexPath.row]
+        row.handleDidSelectCell(indexPath, tableView: tableView)
+    }
+}
+
+extension BaseTableViewAdapter: UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -&gt; Int {
+        return sections.count
+    }
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return sections[section].rows.count
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+        let row = sections[indexPath.section].rows[indexPath.row]
+        return row.makeCell(indexPath, tableView: tableView)
+    }
+}
+</string>
+						<key>Source/Common/TableViewRows/TableViewDiffCalculator/TableViewDiffCalculator.swift:implementation</key>
+						<string>import Foundation
+
+class SectionChanges {
+    var insertsInts = [Int]()
+    var deletesInts = [Int]()
+    var updates = CellChanges()
+
+    var inserts: IndexSet {
+        return IndexSet(insertsInts)
+    }
+    var deletes: IndexSet {
+        return IndexSet(deletesInts)
+    }
+
+    init(inserts: [Int] = [], deletes: [Int] = [], updates: CellChanges = CellChanges()) {
+        self.insertsInts = inserts
+        self.deletesInts = deletes
+        self.updates = updates
+    }
+}
+
+class CellChanges {
+    var inserts = [IndexPath]()
+    var deletes = [IndexPath]()
+    var reloads = [IndexPath]()
+
+    init(inserts: [IndexPath] = [], deletes: [IndexPath] = [], reloads: [IndexPath] = []) {
+        self.inserts = inserts
+        self.deletes = deletes
+        self.reloads = reloads
+    }
+}
+
+struct ReloadableSection&lt;N: Equatable&gt;: Equatable {
+    let key: String
+    let value: [ReloadableCell&lt;N&gt;]
+    let index: Int
+
+    init(key: String, value: [ReloadableCell&lt;N&gt;], index: Int) {
+        self.key = key
+        self.value = value
+        self.index = index
+    }
+
+    static func ==(lhs: ReloadableSection, rhs: ReloadableSection) -&gt; Bool {
+        return lhs.key == rhs.key &amp;&amp; lhs.value == rhs.value
+    }
+}
+
+struct ReloadableCell&lt;N:Equatable&gt;: Equatable {
+    let key: String
+    let value: N
+    let index: Int
+
+    init(key: String, value: N, index: Int) {
+        self.key = key
+        self.value = value
+        self.index = index
+    }
+
+    static func ==(lhs: ReloadableCell, rhs: ReloadableCell) -&gt; Bool {
+        return lhs.key == rhs.key &amp;&amp; lhs.value == rhs.value
+    }
+}
+
+struct ReloadableSectionData&lt;N: Equatable&gt; {
+    var items = [ReloadableSection&lt;N&gt;]()
+
+    subscript(key: String) -&gt; ReloadableSection&lt;N&gt;? {
+        get {
+            return items.filter { $0.key == key }.first
+        }
+    }
+
+    subscript(index: Int) -&gt; ReloadableSection&lt;N&gt;? {
+        get {
+            return items.filter { $0.index == index }.first
+        }
+    }
+}
+
+struct ReloadableCellData&lt;N: Equatable&gt; {
+    var items = [ReloadableCell&lt;N&gt;]()
+
+    subscript(key: String) -&gt; ReloadableCell&lt;N&gt;? {
+        get {
+            return items.filter { $0.key == key }.first
+        }
+    }
+
+    subscript(index: Int) -&gt; ReloadableCell&lt;N&gt;? {
+        get {
+            return items.filter { $0.index == index }.first
+        }
+    }
+}
+
+final class TableViewDiffCalculator {
+    static func calculate&lt;N&gt;(oldItems: [ReloadableSection&lt;N&gt;], newItems: [ReloadableSection&lt;N&gt;]) -&gt; SectionChanges {
+        let sectionChanges = SectionChanges()
+        let uniqueSectionKeys = (oldItems + newItems)
+            .map { $0.key }
+            .filterDuplicates()
+
+        let cellChanges = CellChanges()
+
+        for sectionKey in uniqueSectionKeys {
+            let oldSectionItem = ReloadableSectionData(items: oldItems)[sectionKey]
+            let newSectionItem = ReloadableSectionData(items: newItems)[sectionKey]
+
+            if let oldSectionItem = oldSectionItem, let newSectionItem = newSectionItem {
+                if oldSectionItem != newSectionItem {
+                    let oldCellIData = ReloadableCellData(items: oldSectionItem.value)
+                    let newCellData = ReloadableCellData(items: newSectionItem.value)
+
+                    let uniqueCellKeys = (oldCellIData.items + newCellData.items)
+                        .map { $0.key }
+                        .filterDuplicates()
+
+                    for cellKey in uniqueCellKeys {
+                        let oldCellItem = oldCellIData[cellKey]
+                        let newCellItem = newCellData[cellKey]
+
+                        if let oldCellItem = oldCellItem, let newCelItem = newCellItem {
+                            if oldCellItem != newCelItem {
+                                cellChanges.reloads.append(IndexPath(row: oldCellItem.index, section: oldSectionItem.index))
+                            }
+                        } else if let oldCellItem = oldCellItem {
+                            cellChanges.deletes.append(IndexPath(row: oldCellItem.index, section: oldSectionItem.index))
+                        } else if let newCellItem = newCellItem {
+                            cellChanges.inserts.append(IndexPath(row: newCellItem.index, section: newSectionItem.index))
+                        }
+                    }
+                }
+            } else if let oldSectionItem = oldSectionItem {
+                sectionChanges.deletesInts.append(oldSectionItem.index)
+            } else if let newSectionItem = newSectionItem {
+                sectionChanges.insertsInts.append(newSectionItem.index)
+            }
+        }
+
+        sectionChanges.updates = cellChanges
+
+        return sectionChanges
+    }
+}</string>
+						<key>Source/Common/TableViewRows/TableViewSection/TableViewSection.swift:implementation</key>
+						<string>import Foundation
+
+final class TableViewSection: Equatable {
+    var rows: [TableViewRow]
+    let key: String
+
+    init(rows: [TableViewRow], uniqueKey: String) {
+        self.rows = rows
+        self.key = uniqueKey
+    }
+}
+
+extension TableViewSection {
+    static func ==(lhs: TableViewSection, rhs: TableViewSection) -&gt; Bool {
+        return lhs.rows == rhs.rows &amp;&amp; lhs.key == rhs.key
+    }
+}</string>
+						<key>Source/Common/TableViewRows/TableViewRow/TableViewRow.swift:implementation</key>
+						<string>import UIKit
+
+final class TableViewRow: Equatable {
+    private let cellBlock: TableViewCellBlock
+    private let heightBlock: TableViewCellHeightBlock
+    private let selectBlock: TableViewDidSelectBlock
+
+    let id: String
+    let value: CustomStringConvertible
+
+    init(cellBlock: @escaping TableViewCellBlock,
+         heightBlock: @escaping TableViewCellHeightBlock,
+         selectBlock: @escaping TableViewDidSelectBlock,
+         id: String,
+         value: CustomStringConvertible) {
+
+        self.cellBlock = cellBlock
+        self.heightBlock = heightBlock
+        self.selectBlock = selectBlock
+        self.id = id
+        self.value = value
+    }
+
+    func makeCell(_ indexPath: IndexPath, tableView: UITableView) -&gt; UITableViewCell {
+        return cellBlock(indexPath, tableView)
+    }
+
+    func heightForCell(_ indexPath: IndexPath, tableView: UITableView) -&gt; CGFloat {
+        return heightBlock(indexPath, tableView)
+    }
+
+    func handleDidSelectCell(_ indexPath: IndexPath, tableView: UITableView) {
+        selectBlock(indexPath, tableView)
+    }
+}
+
+extension TableViewRow {
+    static func ==(lhs: TableViewRow, rhs: TableViewRow) -&gt; Bool {
+        return lhs.id == rhs.id &amp;&amp; lhs.value.description == rhs.value.description
+    }
+}</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Concrete</key>
+	<true/>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.iosBase</string>
+		<string>com.apple.dt.unit.languageChoice</string>
+		<string>com.apple.dt.unit.base_Options</string>
+		<string>com.apple.dt.unit.base_ProjectSettings</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Source/Factories/Coordinator Factory/CoordinatorFactory.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Factories</string>
+				<string>Coordinator Factory</string>
+			</array>
+			<key>Path</key>
+			<string>CoordinatorFactory.swift</string>
+		</dict>
+		<key>Resource/Storyboards/Launch Screen/Base.lproj/LaunchScreen.storyboard</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Resource</string>
+				<string>Storyboards</string>
+				<string>Launch Screen</string>
+			</array>
+			<key>Path</key>
+			<string>LaunchScreen.storyboard</string>
+		</dict>
+		<key>Source/Common/StoryboardName/StoryboardName.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>StoryboardName</string>
+			</array>
+			<key>Path</key>
+			<string>StoryboardName.swift</string>
+		</dict>
+		<key>Source/Protocols/Factory Protocols/Module Factory Protocols/NavigationModuleFactoryType.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Protocols</string>
+				<string>Factory Protocols</string>
+				<string>Module Factory Protocols</string>
+			</array>
+			<key>Path</key>
+			<string>NavigationModuleFactoryType.swift</string>
+		</dict>
+		<key>Source/Flow/Main/Controller/MainViewController.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Flow</string>
+				<string>Main</string>
+				<string>Controller</string>
+			</array>
+			<key>Path</key>
+			<string>MainViewController.swift</string>
+		</dict>
+		<key>Source/Common/Extensions/UIKitExtensions/UIKitExtensions.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>Extensions</string>
+				<string>UIKitExtensions</string>
+			</array>
+			<key>Path</key>
+			<string>UIKitExtensions.swift</string>
+		</dict>
+		<key>Source/Common/Extensions/FoundationExtensions/ArrayExtensions.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>Extensions</string>
+				<string>FoundationExtensions</string>
+			</array>
+			<key>Path</key>
+			<string>ArrayExtensions.swift</string>
+		</dict>
+		<key>Source/Factories/Module Factory/ModuleFactory.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Factories</string>
+				<string>Module Factory</string>
+			</array>
+			<key>Path</key>
+			<string>ModuleFactory.swift</string>
+		</dict>
+		<key>Source/Protocols/Common Protocols/Presentable.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Protocols</string>
+				<string>Common Protocols</string>
+			</array>
+			<key>Path</key>
+			<string>Presentable.swift</string>
+		</dict>
+		<key>Source/Factories/Component Factory/ComponentFactory.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Factories</string>
+				<string>Component Factory</string>
+			</array>
+			<key>Path</key>
+			<string>ComponentFactory.swift</string>
+		</dict>
+		<key>Resource/Storyboards/Main/Main.storyboard</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Resource</string>
+				<string>Storyboards</string>
+				<string>Main</string>
+			</array>
+			<key>Path</key>
+			<string>Main.storyboard</string>
+		</dict>
+		<key>Source/Protocols/Factory Protocols/Module Factory Protocols/MainModuleFactoryType.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Protocols</string>
+				<string>Factory Protocols</string>
+				<string>Module Factory Protocols</string>
+			</array>
+			<key>Path</key>
+			<string>MainModuleFactoryType</string>
+		</dict>
+		<key>Resource/Plists/Application Plist/Info.plist</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Resource</string>
+				<string>Plists</string>
+				<string>Application Plist</string>
+			</array>
+			<key>Path</key>
+			<string>Info.plist</string>
+		</dict>
+		<key>Source/Common/Parents/Router/Router.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>Parents</string>
+				<string>Router</string>
+			</array>
+			<key>Path</key>
+			<string>Router.swift</string>
+		</dict>
+		<key>Source/Protocols/Factory Protocols/Coordinator Factory Protocols/CoordinatorFactoryType.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Protocols</string>
+				<string>Factory Protocols</string>
+				<string>Coordinator Factory Protocols</string>
+			</array>
+			<key>Path</key>
+			<string>CoordinatorFactoryType.swift</string>
+		</dict>
+		<key>Source/Protocols/Router Protocols/Routable.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Protocols</string>
+				<string>Router Protocols</string>
+			</array>
+			<key>Path</key>
+			<string>Routable.swift</string>
+		</dict>
+		<key>Source/Common/Parents/Base NavigationController/BaseNavigationController.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>Parents</string>
+				<string>Base NavigationController</string>
+			</array>
+			<key>Path</key>
+			<string>BaseNavigationController.swift</string>
+		</dict>
+		<key>Source/Protocols/Common Protocols/PresentableView.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Protocols</string>
+				<string>Common Protocols</string>
+			</array>
+			<key>Path</key>
+			<string>PresentableView.swift</string>
+		</dict>
+		<key>Source/Protocols/Common Protocols/Coordinator.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Protocols</string>
+				<string>Common Protocols</string>
+			</array>
+			<key>Path</key>
+			<string>Coordinator.swift</string>
+		</dict>
+		<key>Source/Protocols/Factory Protocols/Module Factory Protocols/ModuleFactoryType.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Protocols</string>
+				<string>Factory Protocols</string>
+				<string>Module Factory Protocols</string>
+			</array>
+			<key>Path</key>
+			<string>ModuleFactoryType.swift</string>
+		</dict>
+		<key>Source/Application/Application Delegate/AppDelegate.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Application</string>
+				<string>Application Delegate</string>
+			</array>
+			<key>Path</key>
+			<string>AppDelegate.swift</string>
+		</dict>
+		<key>Source/Protocols/Factory Protocols/Component Factory Protocols/ComponentFactoryType.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Protocols</string>
+				<string>Factory Protocols</string>
+				<string>Component Factory Protocols</string>
+			</array>
+			<key>Path</key>
+			<string>ComponentFactoryType.swift</string>
+		</dict>
+		<key>Source/Common/Parents/Base ViewController/BaseViewController.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>Parents</string>
+				<string>Base ViewController</string>
+			</array>
+			<key>Path</key>
+			<string>BaseViewController.swift</string>
+		</dict>
+		<key>Source/Common/Parents/Base TableViewAdapter/BaseTableViewAdapter.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>Parents</string>
+				<string>Base TableViewAdapter</string>
+			</array>
+			<key>Path</key>
+			<string>BaseTableViewAdapter.swift</string>
+		</dict>
+		<key>Source/Application/Application Coordinator/ApplicationCoordinator.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Application</string>
+				<string>Application Coordinator</string>
+			</array>
+			<key>Path</key>
+			<string>ApplicationCoordinator.swift</string>
+		</dict>
+		<key>Resource/Storyboards/Navigation/Navigation.storyboard</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Resource</string>
+				<string>Storyboards</string>
+				<string>Navigation</string>
+			</array>
+			<key>Path</key>
+			<string>Navigation.storyboard</string>
+		</dict>
+		<key>Source/Common/Parents/BaseCoordinator/BaseCoordinator.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>Parents</string>
+				<string>BaseCoordinator</string>
+			</array>
+			<key>Path</key>
+			<string>BaseCoordinator.swift</string>
+		</dict>
+		<key>Source/Common/Typealiases/Typealiases.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>Typealiases</string>
+			</array>
+			<key>Path</key>
+			<string>Typealiases.swift</string>
+		</dict>
+		<key>Source/Flow/Main/Coordinator/MainCoordinator.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Flow</string>
+				<string>Main</string>
+				<string>Coordinator</string>
+			</array>
+			<key>Path</key>
+			<string>MainCoordinator.swift</string>
+		</dict>
+		<key>Resource/Images/Application Assets/Assets.xcassets</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Resource</string>
+				<string>Images</string>
+				<string>Application Assets</string>
+			</array>
+			<key>SortOrder</key>
+			<integer>100</integer>
+			<key>AssetGeneration</key>
+			<array>
+				<dict>
+					<key>Platforms</key>
+					<dict>
+						<key>iOS</key>
+						<string>true</string>
+					</dict>
+					<key>Type</key>
+					<string>appicon</string>
+					<key>Name</key>
+					<string>AppIcon</string>
+				</dict>
+			</array>
+			<key>Path</key>
+			<string>Images.xcassets</string>
+		</dict>
+		<key>Source/Common/TableViewRows/TableViewDiffCalculator/TableViewDiffCalculator.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>TableViewRows</string>
+				<string>TableViewDiffCalculator</string>
+			</array>
+			<key>Path</key>
+			<string>TableViewDiffCalculator.swift</string>
+		</dict>
+		<key>Source/Common/TableViewRows/TableViewSection/TableViewSection.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>TableViewRows</string>
+				<string>TableViewSection</string>
+			</array>
+			<key>Path</key>
+			<string>TableViewSection.swift</string>
+		</dict>
+		<key>Source/Common/TableViewRows/TableViewRow/TableViewRow.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Source</string>
+				<string>Common</string>
+				<string>TableViewRows</string>
+				<string>TableViewRow</string>
+			</array>
+			<key>Path</key>
+			<string>TableViewRow.swift</string>
+		</dict>
+	</dict>
+	<key>Identifier</key>
+	<string>com.datPixel.dt.unit.coordinatorApplication</string>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses a coordinator paterns.</string>
+</dict>
+</plist>
